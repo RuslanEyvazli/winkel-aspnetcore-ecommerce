@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model UserAddRoleVM
+
+
+<h2>Add New Role</h2>
+<div asp-validation-summary="ModelOnly"></div>
+<form method="post">
+    <div class="form-group">
+        <label class="form-label">Role</label>
+        <select name="role" class="form-control">
+            @foreach (var role in Model.Roles)
+            {
+                <option value="@role">@role</option>
+            }
+        </select>
+    </div>
+    <input type="submit" value="Add" class="btn btn-block btn-lg btn-primary"/>
+</form> 
+<a class="btn btn-success btn-lg btn-hover btn-block" asp-action="Index"> Back to index</a>

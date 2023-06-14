@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model ProductPartialVM
+
+ @foreach (Product product in Model.Products)
+{
+   <div class="@Model.ClassName">
+        <div class="img_wrap position-relative " style="height: 55vh !important">
+                <img src="~/image/@product.Image" alt="">
+                <div class="overlay position-absolute ">
+                <a class="add" href="/Card/Add/@product.Id" data-id ="@product.Id">ADD TO CART <i class="fas fa-plus"></i></a>
+                <a class="buy" href="/checkout-coming-soon.html">BUY NOW <i class="fas fa-cart-arrow-down"></i></a>
+                </div>
+                </div>
+                <div class="txt-holder">
+                <a href="/Products/Single">@product.Name</a> 
+                <div class="span-holder">
+                        @if (product.HasDiscount)
+                        {
+                            <span class="through">$@product.Price</span>
+                            <span>$@product.DiscountPrice</span>
+                        }
+                        else
+                        {
+                            <span style="margin-right:70px !important">$@product.Price</span>
+                        }
+                        @for (int i = 0; i < product.Rating; i++)
+                        {
+                            <i class="fas fa-star"></i>
+                        }
+                        @for (int i = 0; i < 5 - product.Rating; i++)
+                        {
+                            <i class="far fa-star"></i>
+                        }
+                </div>
+                </div>
+            </div>
+}

@@ -1,0 +1,109 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<Product>
+
+
+<section  id="products">
+    <div class="title">
+        <p>HOME PRODUCTS</p>
+        <h1>COLLECTION PRODUCTS</h1>
+    </div>
+</section>
+
+<section id="clothing">
+    <div class="container">
+        <div class="row reverse">  
+            <div class="col-lg-9 col-md-9">
+                <div class="row products_row">
+               @* @foreach (Product product in Model)
+                {
+                    <div class="col-lg-4 col-md-6">
+                      <div class="img_wrap position-relative ">
+                        <img src="~/image/@product.Image" alt="">
+                        <div class="overlay position-absolute ">
+                          <a class="add" href="/Card/Add/@product.Id" data-id ="@product.Id">ADD TO CART <i class="fas fa-plus"></i></a>
+                          <a class="buy" href="">BUY NOW <i class="fas fa-cart-arrow-down"></i></a>
+                        </div>
+                      </div>
+                      <div class="txt-holder">
+                      <a href="">@product.Name</a> 
+                      <div class="span-holder">
+                                @if (product.HasDiscount)
+                                {
+                                    <span class="through">$@product.Price</span>
+                                    <span>$@product.DiscountPrice</span>
+                                }
+                                else
+                                {
+                                    <span>$@product.Price</span>
+                                }
+                                @for (int i = 0; i < product.Rating; i++)
+                                {
+                                    <i class="fas fa-star"></i>
+                                }
+                                @for (int i = 0; i < 5 - product.Rating; i++)
+                                {
+                                    <i class="far fa-star"></i>
+                                }
+                      </div>
+                      </div>
+                </div>
+                }*@
+                @await Html.PartialAsync("_ProductPartialView",new ProductPartialVM{ Products = Model, ClassName = "col-lg-4 col-md-6"})
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <button id="loadmore" data-total-count="@ViewData["total_products"]" class="btn btn-lg btn-block btn-primary">Load More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="wrapper">
+                    <h2 class="cloth"><a href="">CLOTHING</a> </h2>
+                    <ul>
+                        <li><a href="">Shirts & Tops</a></li>
+                        <li><a href="">Dresses</a></li>
+                        <li><a href="">Shorts & Skirts</a></li>
+                        <li><a href="">Jackets</a></li>
+                        <li><a href="">Coats</a></li>
+                        <li><a href="">Sleeveless</a></li>
+                        <li><a href="">Trousers</a></li>
+                        <li><a href="">Winter Coats</a></li>
+                        <li><a href="">Jumpsuits</a></li>
+                    </ul>
+                    <h2 class="cloth"><a href="">CLOTHING</a> </h2>
+                    <ul>
+                        <li><a href="">Shirts & Tops</a></li>
+                        <li><a href="">Dresses</a></li>
+                        <li><a href="">Shorts & Skirts</a></li>
+                        <li><a href="">Jackets</a></li>
+                        <li><a href="">Coats</a></li>
+                        <li><a href="">Sleeveless</a></li>
+                        <li><a href="">Trousers</a></li>
+                        <li><a href="">Winter Coats</a></li>
+                        <li><a href="">Jumpsuits</a></li>
+                    </ul>
+                    <h2 class="cloth"><a href="">CLOTHING</a> </h2>
+                    <h2 class="cloth"><a href="">CLOTHING</a> </h2>
+                    <h2 class="cloth"><a href="">CLOTHING</a> </h2>
+                    <ul>
+                        <li><a href="">Shirts & Tops</a></li>
+                        <li><a href="">Dresses</a></li>
+                        <li><a href="">Shorts & Skirts</a></li>
+                        <li><a href="">Jackets</a></li>
+                        <li><a href="">Coats</a></li>
+                        <li><a href="">Sleeveless</a></li>
+                        <li><a href="">Trousers</a></li>
+                        <li><a href="">Winter Coats</a></li>
+                        <li><a href="">Jumpsuits</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>

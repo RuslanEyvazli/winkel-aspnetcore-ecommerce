@@ -1,0 +1,332 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Final Project</title>
+    
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="~/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="~/css/animation.css">
+  </head>
+  <body>
+
+    <div id="preloader">
+      <img src="~/image/preloader2.gif" >
+    </div>
+
+   <header>
+      <div class="container">
+        <ul class="d-flex justify-content-between ">
+          <li class="col-12 col-sm-12 col-md-4">
+            <i class="fas fa-phone"></i>
+            +48 516 492 663
+          </li>
+            <li class="col-12 col-sm-12 col-md-4">
+            <i class="fas fa-paper-plane"></i>
+            RUS.EYVAZLI@OUTLOOK.COM
+          </li>
+                <li class="col-12 col-sm-12 col-md-4">
+            3-5 BUSINESS DAYS DELIVERY & FREE RETURNS
+          </li>
+        </ul>
+      </div>
+    </header>
+
+   <nav id="navbar" class=" my-nav navbar-expand-lg navbar-dark ftco_navbar  ftco-navbar-light ">
+    <div class="container d-flex justify-content-between  ">
+        <div class="navleft">
+          <a class="navbar-brand "  href=""><b>WINKEL</b></a>
+        </div>
+        <div class="navright">
+          <ul class="d-flex ">
+            <li class="active"><a href="/Home/Index">HOME</a></li>
+            <li class="dropdown position-relative  "><span class="">SHOP <i class="fas fa-angle-down"></i> </span> 
+              <div class="dropdownmenu position-absolute">
+                  <a href="/Products">Shop</a> 
+                  <a href="/Card/Index">Cart</a> 
+                  <a href="/checkout-coming-soon.html">Checkout</a> 
+              </div>
+            </li>
+<<<<<<< HEAD
+            <li class=""><a href="/checkout-coming-soon.html">ABOUT</a></li>
+
+
+             @if(User.Identity.IsAuthenticated){
+                <li class="dropdown position-relative  "><span class="">BLOG<i class="fas fa-angle-down"></i> </span> 
+                  <div class="dropdownmenu position-absolute">
+                        <a href="/Posts/Index">BLOG</a>
+
+                      <a href="/Profile/CreatePost">Create Your Post</a> 
+
+                  </div>
+                </li>
+            }else{
+                        <li>
+                        <a href="/Posts/Index">BLOG</a>
+                        </li>
+            }
+
+
+            <li><a href="/Home/Contact">CONTACT</a></li>
+=======
+            <li class=""><a href="about.html">ABOUT</a></li>
+            <li><a href="/Posts/Index">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+>>>>>>> b9795eb545a5c97e33d4e33e1211f5ef04577782
+
+            @if(User.Identity.IsAuthenticated){
+                <li class="dropdown position-relative  "><span class="">@User.Identity.Name <i class="fas fa-angle-down"></i> </span> 
+                  <div class="dropdownmenu position-absolute">
+<<<<<<< HEAD
+                      <a href="/Auth/Logout">Logout</a>
+                      <a href="/checkout-coming-soon.html">My Profile</a>
+=======
+                      <a href="/Auth/Logout">Logout</a> 
+                      <a href="/Profile/Index">My Profile</a> 
+                      <a href="/Profile/CreatePost">Create Post</a> 
+>>>>>>> b9795eb545a5c97e33d4e33e1211f5ef04577782
+                      @if(User.IsInRole("Admin")){
+                        <a href="/Admin/Dashboard/Index">Admin Page</a> 
+                      }
+                  </div>
+                </li>
+            }else{
+                <li><a href="/Auth/Register">Register</a></li>
+                <li><a href="/Auth/Login">Login</a></li>
+            }
+            <li class=""> <a id="basket" href="">
+                <i class="fas fa-shopping-cart"></i>
+            <span class="card-quantity">0</span>
+        </a></li>
+          </ul>
+        </div>
+        <a href="" class="menu d-none position-relative">
+            <span><i class="fas fa-bars"></i></span>
+            MENU
+          </a>
+    </div>
+  </nav>
+
+    <div class="nav-mobile d-none">
+    <ul class="container">
+            <li><a href="/Home/Index">HOME</a></li>
+            <li><a href="/Products">SHOP</a></li>
+            <li><a href="/checkout-coming-soon.html">ABOUT</a></li>
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li class="dropdown position-relative  ">
+                    <span class="">BLOG<i class="fas fa-angle-down"></i> </span>
+                    <div class="dropdownmenu position-absolute">
+                        <a href="/Posts/Index">BLOG</a>
+                        <a href="/Profile/CreatePost">Create Your Post</a>
+                    </div>
+                </li>
+            }
+            else
+            {
+                <li><a href="/AProfile/CreatePost">Register</a></li>
+            }
+
+            <li><a href="/Home/Contact">CONTACT</a></li>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li class="dropdown position-relative  ">
+                    <span class="">@User.Identity.Name <i class="fas fa-angle-down"></i> </span>
+                    <div class="dropdownmenu position-absolute">
+                        <a href="/Auth/Logout">Logout</a>
+                        <a href="/checkout-coming-soon.html">My Profile</a>
+                        <a href="/Profile/CreatePost">Create Your Post</a>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a href="/Admin/Dashboard/Index">Admin Page</a>
+                        }
+                    </div>
+                </li>
+            }
+            else
+            {
+                <li><a href="/Auth/Register">Register</a></li>
+                <li><a href="/Auth/Login">Login</a></li>
+            }
+    </ul>
+
+  </div>
+
+    @RenderBody()
+
+      <hr class="devider">
+
+   <section id="subrice">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-7 subrice-head text-center py-5  animated  bounceInUp delay-1s">
+                  <h2>Subcribe to our Newsletter</h2>
+                  <div class="row subrice-body d-flex justify-content-center mt-5">
+                      <div class="col-md-8">
+                          <form class="subrice-form">
+                              <div class="form-group d-flex">
+                                  <input type="text" placeholder="Enter email address"
+                                      class="form-control email-input" />
+                                  <input id = "subscribe" type="submit" value="Subscribe" class="submit-input" />
+                              </div>
+                          </form>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+        @*@( IgnoreBody() );*@
+        @RenderBody()
+    <footer id="footer">
+          <div class="container">
+              <div class="row">
+                  <span class="arrow-up">
+                      <a href="#" id="page-top">
+                          <i class="fas fa-angle-up"></i>
+                      </a>
+                  </span>
+                  <div class="col-md social-media">
+                      <div class="footer-text mb-4">
+                          <h2>
+                              Winkel
+                          </h2>
+                          <p>
+                              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                          </p>
+                          <ul class="social-icon animated  bounceInUp delay-5s duration-2s">
+                              <li>
+                                  <a href="">
+                                      <i class="fab fa-twitter"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="">
+                                      <i class="fab fa-facebook-f"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="">
+                                      <i class="fab fa-instagram"></i>
+                                  </a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-md footer-menu">
+                      <div>
+                          <h2>Menu</h2>
+                          <ul>
+                              <li>
+                                  <a href="">Shop</a>
+                              </li>
+                              <li>
+                                  <a href="">About</a>
+                              </li>
+                              <li>
+                                  <a href="">Journal</a>
+                              </li>
+                              <li>
+                                  <a href="">Contact Us</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-md-4 footer-help">
+                      <h2>help</h2>
+                      <div class="d-flex ">
+                          <ul class="mr-l-5 pr-l-3 mr-4">
+                              <li>
+                                  <a href="">Shipping Information</a>
+                              </li>
+                              <li>
+                                  <a href="">Returns & Exchange</a>
+                              </li>
+                              <li>
+                                  <a href="">Terms & Conditions</a>
+                              </li>
+                              <li>
+                                  <a href="">Privacy Policy</a>
+                              </li>
+                          </ul>
+                          <ul>
+  
+                              <li>
+                                  <a href="">FAQs</a>
+                              </li>
+                              <li>
+                                  <a href="">Contact</a>
+                              </li>
+                          </ul>
+  
+                      </div>
+                  </div>
+                  <div class="col-md footer-adres">
+                      <h2>
+                          Have a Questions?
+                      </h2>
+                      <ul>
+                          <li class="d-flex">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <address>
+                                  203 Fake St. Mountain View, San Francisco, California, USA
+                              </address>
+                          </li>
+                          <li class="d-flex">
+                              <a href="">
+                                  <i class="fas fa-phone"></i>
+                                  <span>+2 392 3929 210</span>
+                              </a>
+                          </li>
+                          <li class="d-flex">
+                              <a href="">
+                                  <i class="fas fa-envelope"></i>
+                                  <span> info@yourdomain.com</span>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <p>Copyright ©2019 All rights reserved | This template is made with </p>
+          </div>
+      </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    @if (User.Identity.IsAuthenticated)
+    {
+       // <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    }
+    <script src="~/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <script src="~/js/main.js"></script>
+    @RenderSection("scripts",false)
+
+  </body>
+</html>

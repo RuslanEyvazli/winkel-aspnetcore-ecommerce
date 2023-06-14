@@ -1,0 +1,37 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    string result = "";
+    if ((int)Model.ParentId == Model.Id)
+    {
+        result = "message";
+    } 
+    else {
+        result = "message mt-5 ml-5";
+    }
+}
+@model Comment
+
+<div class="@result" id="c-@Model.Id" data-comment-id="@Model.Id">
+    <div class="row">
+        <div class="col-3">
+            <div class="img-wrapper">
+                <img src="~/image/person_1.webp" alt="">
+            </div>
+        </div>
+        <div class="col-9">
+            <h3>
+                @Model.AppUser.UserName
+            </h3>
+            <span>@Model.CreatedAt.ToString("MMMM d, yyyy AT h:mmP'M'")</span>
+
+            <p>@Model.Contents</p>
+            @if((int)Model.ParentId == Model.Id)
+            {
+                <button type="button" class="btn btn-outline-dark btn-comment-reply">Reply</button>
+            }
+        </div>
+    </div>
+
+</div>

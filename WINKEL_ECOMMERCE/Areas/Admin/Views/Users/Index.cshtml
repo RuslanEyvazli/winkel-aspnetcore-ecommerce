@@ -1,0 +1,70 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@inject Microsoft.AspNetCore.Identity.UserManager<AppUser> _userManager 
+@model IQueryable<AppUser>
+<div class="">
+<a asp-area="Admin" asp-controller="Users" asp-action="Create" class="btn btn-outline-primary btn-lg d-block">
+    CREATE NEW USERS
+    <i class="material-icons">
+        add
+    </i>
+</a>
+ </div>
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Roles</th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (AppUser user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>@user.Firstname</td>
+                <td>@user.Lastname</td>
+                <td>@{
+                        IList<string> roles = await _userManager.GetRolesAsync(user);
+                    }
+
+                    @string.Join(',', roles.ToArray())
+                    
+                </td>
+                <td>
+                    <a asp-area="Admin" asp-controller="Users" asp-action="Details" asp-route-id="@user.Id" class="btn btn-success">
+                        <i class="material-icons">
+                            remove_red_eye
+                        </i>
+                    </a>
+                    <a asp-area="Admin" asp-controller="Users" asp-action="Edit" asp-route-id="@user.Id" class="btn btn-warning">
+                        <i class="material-icons">
+                            edit
+                        </i>
+                    </a>
+@*                    @if (user.Email != "rus.eyvazli@gmail.com")
+                    {
+                        <a asp-area="Admin" asp-controller="Users" asp-action="Delete" asp-route-id="@user.Id" class="btn btn-danger">
+                            <i class="material-icons">
+                                delete
+                            </i>
+                        </a>
+                    }*@
+                    <a asp-area="Admin" asp-controller="Users" asp-action="AddRole" asp-route-userid="@user.Id"  class="btn btn-secondary">
+                        <i class="material-icons">
+                            add_circle
+                        </i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

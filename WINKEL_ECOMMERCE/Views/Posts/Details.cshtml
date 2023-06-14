@@ -1,0 +1,498 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<<<<<<< HEAD
+@model BlogDetailsVM
+
+@{
+
+    IEnumerable<Comment> SubComments(Comment comment)
+    {
+        if (comment.Children.Count <= 1) yield return comment;
+        foreach (Comment item in comment.Children.Skip(1).SelectMany(c=>SubComments(c)))
+        {
+            yield return item;
+        }
+    }
+}
+=======
+@{
+}
+@model BlogDetailsVM
+>>>>>>> b9795eb545a5c97e33d4e33e1211f5ef04577782
+
+<section id="products">
+    <div class="title">
+        <p>HOME BLOG</p>
+        <h1>SINGLE BLOG</h1>
+    </div>
+</section>
+
+
+<section id="categories">
+    <div class="container">
+        <div class="row outer">
+            <div class="col-md-8">
+                <div class="text-holder">
+                    <h3>@Model.Post.Header</h3>
+<<<<<<< HEAD
+                    <p>@(Model.Post.Content.Length > 400 ? Model.Post.Content.Substring(0, Model.Post.Content.Length / 2) : Model.Post.Content)</p>
+=======
+                    <p>@Model.Post.Content.Substring(0,Model.Post.Content.Length/2)</p>
+>>>>>>> b9795eb545a5c97e33d4e33e1211f5ef04577782
+                    <div class="img wrapper">
+                        <img src="~/image/@Model.Post.Image" alt="">
+
+                    </div>
+<<<<<<< HEAD
+                    @if (Model.Post.Content.Length > 400)
+                    {
+                        <p>@Model.Post.Content.Substring(Model.Post.Content.Length/2)</p>
+                    }
+=======
+                    <p>@Model.Post.Content.Substring(Model.Post.Content.Length/2)</p>
+>>>>>>> b9795eb545a5c97e33d4e33e1211f5ef04577782
+@*
+                    <h3>#2. Creative WordPress Themes</h3>
+                    <p>Temporibus ad error suscipit exercitationem hic molestiae totam obcaecati rerum, eius aut, in. Exercitationem atque quidem tempora maiores ex architecto voluptatum aut officia doloremque. Error dolore voluptas, omnis molestias odio dignissimos culpa ex earum nisi consequatur quos odit quasi repellat qui officiis reiciendis incidunt hic non? Debitis commodi aut, adipisci.</p>
+                    <div class="img wrapper">
+                        <img src="~/image/image_2.jpg" alt="">
+                    </div>
+                    <p>
+                        Quisquam esse aliquam fuga distinctio, quidem delectus veritatis reiciendis. Nihil explicabo quod, est eos ipsum. Unde aut non tenetur tempore, nisi culpa voluptate maiores officiis quis vel ab consectetur suscipit veritatis nulla quos quia aspernatur perferendis, libero sint. Error, velit, porro. Deserunt minus, quibusdam iste enim veniam, modi rem maiores.
+
+                        Odit voluptatibus, eveniet vel nihil cum ullam dolores laborum, quo velit commodi rerum eum quidem pariatur! Quia fuga iste tenetur, ipsa vel nisi in dolorum consequatur, veritatis porro explicabo soluta commodi libero voluptatem similique id quidem? Blanditiis voluptates aperiam non magni. Reprehenderit nobis odit inventore, quia laboriosam harum excepturi ea.
+
+                        Adipisci vero culpa, eius nobis soluta. Dolore, maxime ullam ipsam quidem, dolor distinctio similique asperiores voluptas enim, exercitationem ratione aut adipisci modi quod quibusdam iusto, voluptates beatae iure nemo itaque laborum. Consequuntur et pariatur totam fuga eligendi vero dolorum provident. Voluptatibus, veritatis. Beatae numquam nam ab voluptatibus culpa, tenetur recusandae!
+
+                        Voluptas dolores dignissimos dolorum temporibus, autem aliquam ducimus at officia adipisci quasi nemo a perspiciatis provident magni laboriosam repudiandae iure iusto commodi debitis est blanditiis alias laborum sint dolore. Dolores, iure, reprehenderit. Error provident, pariatur cupiditate soluta doloremque aut ratione. Harum voluptates mollitia illo minus praesentium, rerum ipsa debitis, inventore?
+                    </p>
+                    *@
+
+                    <div class="cloud d-flex">
+
+                        <a href="">LIFE</a>
+                        <a href="">SPORT</a>
+                        <a href="">TECH</a>
+                        <a href="">TRAVEL</a>
+
+                    </div>
+
+
+                    <div class="lance ">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="img-wrapper">
+                                    <img src="~/image/person_1.webp" alt="">
+                                </div>
+
+                            </div>
+                            <div class="col-8">
+                                <div class="text-holder">
+                                    <h3>Lance Smith</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="comment-side">
+<<<<<<< HEAD
+                        <h3>@(Model.Post.Comments == null? " " : Model.Post.Comments.Count ) Comments</h3>
+                        @foreach (Comment comment in Model.Post.Comments.Where(c=>c.Id == c.ParentId || c.ParentId == null))
+                        {
+                            <div class="message" id="c-@comment.Id" data-comment-id="@comment.Id">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="img-wrapper">
+                                            <img src="~/image/person_1.webp" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-9">
+                                        <h3>
+                                            @comment.AppUser.UserName
+                                        </h3>
+                                        <span>@comment.CreatedAt.ToString("MMMM d, yyyy AT h:mmP'M'")</span>
+
+                                        <p>@comment.Contents</p>
+
+                                        <button type="button" class="btn btn-outline-dark btn-comment-reply">Reply</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            @if (SubComments(comment).FirstOrDefault() != null && comment.Children.Count >1 )
+                            {
+
+                            @foreach (Comment subcomment in SubComments(comment))
+                            {
+                                    <div class="message mt-5 ml-5" id="c-@subcomment.Id" data-comment-id="@subcomment.Id">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="img-wrapper">
+                                                <img src="~/image/person_1.webp" alt="">
+                                            </div>
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>
+                                                @subcomment.AppUser.UserName
+                                            </h3>
+                                            <span>@subcomment.CreatedAt.ToString("MMMM d, yyyy AT h:mmP'M'")</span>
+
+                                            <p>@subcomment.Contents</p>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            }
+
+                            }
+                        }
+         
+=======
+                        <h3>6 Comments</h3>
+
+                        <div class="message">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="img-wrapper">
+                                        <img src="~/image/person_1.webp" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="col-9">
+                                    <h3>
+                                        John Doe
+                                    </h3>
+                                    <span>JUNE 27, 2018 AT 2:21PM</span>
+
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+
+                                    <button type="button" class="btn btn-outline-dark">Reply</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="message">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="img-wrapper">
+                                        <img src="~/image/person_1.webp" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="col-9">
+                                    <h3>
+                                        John Doe
+                                    </h3>
+                                    <span>JUNE 27, 2018 AT 2:21PM</span>
+
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+
+                                    <button type="button" class="btn btn-outline-dark">Reply</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="message">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="img-wrapper">
+                                        <img src="~/image/person_1.webp" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="col-9">
+                                    <h3>
+                                        John Doe
+                                    </h3>
+                                    <span>JUNE 27, 2018 AT 2:21PM</span>
+
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+
+                                    <button type="button" class="btn btn-outline-dark">Reply</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="message">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="img-wrapper">
+                                        <img src="~/image/person_1.webp" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="col-9">
+                                    <h3>
+                                        John Doe
+                                    </h3>
+                                    <span>JUNE 27, 2018 AT 2:21PM</span>
+
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+
+                                    <button type="button" class="btn btn-outline-dark">Reply</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="message">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="img-wrapper">
+                                        <img src="~/image/person_1.webp" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="col-9">
+                                    <h3>
+                                        John Doe
+                                    </h3>
+                                    <span>JUNE 27, 2018 AT 2:21PM</span>
+
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+
+                                    <button type="button" class="btn btn-outline-dark">Reply</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="message">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="img-wrapper">
+                                        <img src="~/image/person_1.webp" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="col-9">
+                                    <h3>
+                                        John Doe
+                                    </h3>
+                                    <span>JUNE 27, 2018 AT 2:21PM</span>
+
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+
+                                    <button type="button" class="btn btn-outline-dark">Reply</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+>>>>>>> b9795eb545a5c97e33d4e33e1211f5ef04577782
+                    </div>
+
+                    <div class="write">
+                        <h3>Leave a comment</h3>
+
+                        <div class="comment-holder">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+<<<<<<< HEAD
+                                <form method="post" id="replyForm">
+                                    <div class="reply-comment">
+
+                                    </div>
+                                    <input type="hidden" name="postId" value="@Model.Post.Id">
+                                    <div class="form-group">
+                                        <label for="content"> Email</label>
+                                        <textarea rows="10" cols="90" id="content" name="content"> </textarea>
+                                        <span asp-validation-for="@Model.Comment.Contents"></span>
+                                    </div>
+                                    <input type="submit" asp-action="AddComment" class="my-btn" value="Post Comment">
+=======
+                                <form method="post">
+
+                                    <div class="form-group">
+                                        <label asp-for="@Model.Comment.Contents"> Email</label>
+                                        <textarea rows="10" cols="90" asp-for="@Model.Comment.Contents"> </textarea>
+                                        <span asp-validation-for="@Model.Comment.Contents"></span>
+                                    </div>
+                                    <input type="submit" asp-action="AddComment" asp-route-postid="@Model.Post.Id="my-btn" value="Post Comment">
+>>>>>>> b9795eb545a5c97e33d4e33e1211f5ef04577782
+
+                                </form>
+                            }
+                            else
+                            {
+                                <ul class="form-group">
+                                    <li><a href="/Auth/Register">Register</a></li>
+                                    <li><a href="/Auth/Login">Login</a></li>
+                                </ul>
+                            }
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-4 right">
+                <div class="txt-holder">
+                    <form action="#" class="search-form">
+                        <div class="form-group position-relative">
+                            <span class="position-absolute"><i class="fas fa-search"></i></span>
+                            <input type="text" class="form-control " placeholder="Type a keyword and hit enter">
+                        </div>
+                    </form>
+
+                    <h2>CATEGORIES</h2>
+
+                    <ul>
+                        <li><a href="">Bags <span>(12)</span></a></li>
+                        <li><a href="">Shoes <span>(22)</span></a></li>
+                        <li><a href="">Dress <span>(37)</span></a></li>
+                        <li><a href="">Accessories <span>(42)</span></a></li>
+                        <li><a href="">Makeup <span>(14)</span></a></li>
+                        <li><a href="">Beauty <span>(140)</span></a></li>
+                    </ul>
+
+                    <div class="recent_blog">
+                        <h3>RECENT BLOG</h3>
+                        <div class="row blog">
+                            <div class="col-md-12">
+                                @foreach(Post post in Model.Posts)
+                                {
+                                    <div class="row recent">
+                                        <div class="col-md-4">
+                                            <div class="img-wrapper">
+                                                <img src="~/image/@post.Image" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="txt-holder">
+                                                <div class="span-holder">
+                                                    <span><a href="/Posts/Details/@post.Id">@post.CreatedAt.ToString("dd MMM, yyyy")</a></span>
+
+                                                    <span><a href=""><i class="fas fa-comment-alt"></i> 3</a></span>
+                                                </div>
+                                                <a href="/Posts/Details/@post.Id">
+                                                    @post.Header
+                                                </a>
+
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+                                }
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>TAG CLOUDS</h3>
+                <div class="cloud d-flex">
+                    <a href="">SHOP</a>
+                    <a href="">PRODUCTS</a>
+                    <a href="">SGIRT</a>
+                    <a href="">JEANS</a>
+                    <a href="">SHOES</a>
+                    <a href="">DRESS</a>
+                    <a href="">COATS</a>
+                    <a href="">JUMPSUITS</a>
+                </div>
+                <div class="prg">
+                    <h3>PARAGRAPH</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam! </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<<<<<<< HEAD
+@section scripts{
+    <script>
+        $(".comment-side").on("click", ".btn-comment-reply", function (e) {
+            e.preventDefault();
+            $(e.currentTarget).closest(".message").clone();
+
+            $(".reply-comment").html("<a class='delete' href='javascript:removeReplyToSelected()'>x</a>").append($(e.currentTarget).closest(".message").clone());
+            $(".reply-comment").css({
+                "border": "10px solid #ffa45c",
+                "border-radius": "2px",
+                "padding": "20px 20px"
+            })
+            $(".reply-comment .delete").css({
+                "display": "flex",
+                "justify-content": "end"
+            })
+            if($(".reply-comment .message").hasClass("mt-5")){
+                $(".reply-comment .message").removeClass("ml-5")
+                $(".reply-comment .message").removeClass("mt-5")
+            }
+        })
+        function removeReplyToSelected(){
+            $(".reply-comment").html(' ');
+            $(".reply-comment").css({
+                "border": "none"
+            })
+            $("#content").val("");
+
+        }
+
+        $("#replyForm").submit( function (e) {
+            e.preventDefault();
+            let formData = new FormData(e.currentTarget)
+            let commentId = $(".reply-comment .message").data("comment-id")
+            console.log(commentId)
+            if (commentId != null) {
+                formData.set("commentId", commentId)
+            }
+            console.log(commentId)
+            console.log(formData)
+            $.ajax({
+                url: '@Url.Action("AddComment")',
+                //url: "/Posts/AddComment?commentId=" + commentId + "&postId="+ @Model.Post.Id+"&content="+$("#content").val(),
+                method:"POST",
+                data: formData,
+                contentType: false,
+                processData: false,
+                dataType: "json",
+                success: function(response){
+                    console.log(response);
+                    removeReplyToSelected();
+                    $("#content").val("");
+                    console.log(response.responseText)
+
+                    if ($(".reply-comment .message").data("comment-id") == undefined){
+                        console.log(response.responseText)
+                        $(".comment-side").append(response.responseText)
+                    }
+                },
+                error: function(response){
+                    if ($(".reply-comment .message").data("comment-id") == undefined) {
+                        console.log(response.responseText)
+                        $("#content").val("");
+                        $(".comment-side").append(response.responseText)
+                    }else{
+                        $(response.responseText).insertAfter($(`#c-${commentId}`))
+                        removeReplyToSelected();
+                        console.log(response.responseText)
+                        $("#content").val("");
+                    }
+                }
+            })
+        })
+    </script>
+}
+=======
+>>>>>>> b9795eb545a5c97e33d4e33e1211f5ef04577782

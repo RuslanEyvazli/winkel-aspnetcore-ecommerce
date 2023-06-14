@@ -1,0 +1,2553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcCFH4rN3G023YqnJsbl1uQAAAAACAAAAAAAQZgAAAAEAACAAAACBIChUx9IKYYi0dwefYpUF6usBS6xNjGiZisj2JCGT/wAAAAAOgAAAAAIAACAAAAADm0varw+j6zSBllRfYslvFeEzcTKDok3XbGZzlypUsCAAAABRNIioJ/i1FdscS0a+tlp4VHOtZ8sSTcy8TPLa/ec+jkAAAABchx03j+dInqFl620qQIgXCU9QSnx/ReQWy9gf1NR7APRFUwq0tUk8pv54+iE7o1X7FjXSZPgWE4/8eEDwV8iS</EncryptedPassword>
+    <_PublishTargetUrl>ftp://win6050.site4now.net/site1</_PublishTargetUrl>
+    <History>True|2023-06-14T11:21:12.8204614Z;False|2023-06-14T15:18:45.8075386+04:00;True|2023-06-14T15:16:05.0011402+04:00;False|2023-06-14T15:11:50.0261851+04:00;True|2023-06-14T15:03:16.1310659+04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>04/23/2023 23:01:32</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>06/14/2023 15:17:42</publishTime>
+    </File>
+    <File Include="Castle.Core.dll">
+      <publishTime>05/06/2020 15:02:04</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:18</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 22:42:34</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 22:42:54</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 22:30:42</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:38:10</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:20</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 22:38:34</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:40</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 22:38:36</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:18</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:18</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 22:42:34</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 22:42:54</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 22:30:42</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:38:10</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:20</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 22:38:34</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:40</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 22:38:36</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:18</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>03/06/2023 05:14:34</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:18</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 22:42:34</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 22:42:54</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 22:30:42</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:38:10</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:20</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 22:38:34</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:40</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 22:38:36</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:18</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:18</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 22:42:34</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 22:42:54</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 22:30:42</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:38:10</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:20</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 22:38:34</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:40</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 22:38:36</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:18</publishTime>
+    </File>
+    <File Include="Humanizer.dll">
+      <publishTime>06/02/2020 17:07:58</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:18</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 22:42:34</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 22:42:54</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 22:30:42</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:38:10</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:20</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 22:38:34</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:40</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 22:38:36</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:18</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:18</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 22:42:34</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 22:42:54</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 22:30:42</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:38:10</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:20</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 22:38:34</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:40</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 22:38:38</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:18</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:18</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 22:42:34</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 22:42:54</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 22:30:42</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:38:10</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:20</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 22:38:34</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:40</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 22:38:38</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:18</publishTime>
+    </File>
+    <File Include="MediatR.Contracts.dll">
+      <publishTime>01/10/2022 18:06:26</publishTime>
+    </File>
+    <File Include="MediatR.dll">
+      <publishTime>09/30/2022 13:00:36</publishTime>
+    </File>
+    <File Include="MediatR.Extensions.Microsoft.DependencyInjection.dll">
+      <publishTime>09/30/2022 13:42:50</publishTime>
+    </File>
+    <File Include="MessagePack.Annotations.dll">
+      <publishTime>07/01/2020 17:05:20</publishTime>
+    </File>
+    <File Include="MessagePack.dll">
+      <publishTime>07/01/2020 17:05:38</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cryptography.Internal.dll">
+      <publishTime>02/24/2023 21:57:52</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cryptography.KeyDerivation.dll">
+      <publishTime>02/24/2023 22:00:48</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll">
+      <publishTime>02/24/2023 22:00:52</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Identity.UI.dll">
+      <publishTime>02/24/2023 22:02:54</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Razor.Language.dll">
+      <publishTime>10/27/2021 01:51:08</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>10/19/2020 22:47:56</publishTime>
+    </File>
+    <File Include="Microsoft.Build.dll">
+      <publishTime>09/13/2022 03:29:46</publishTime>
+    </File>
+    <File Include="Microsoft.Build.Framework.dll">
+      <publishTime>09/13/2022 03:28:56</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.AnalyzerUtilities.dll">
+      <publishTime>06/06/2020 07:37:20</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>10/14/2021 22:42:34</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Features.dll">
+      <publishTime>10/14/2021 22:43:18</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>10/14/2021 22:42:38</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.dll">
+      <publishTime>10/14/2021 22:30:42</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Features.dll">
+      <publishTime>10/14/2021 22:42:54</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Razor.dll">
+      <publishTime>10/27/2021 01:51:14</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>10/14/2021 22:38:10</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>10/14/2021 22:38:34</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.VisualBasic.Features.dll">
+      <publishTime>10/14/2021 22:43:20</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll">
+      <publishTime>10/14/2021 22:38:40</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>10/14/2021 22:38:16</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.MSBuild.dll">
+      <publishTime>10/14/2021 22:38:36</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>09/21/2021 03:59:32</publishTime>
+    </File>
+    <File Include="Microsoft.DiaSymReader.dll">
+      <publishTime>06/11/2018 14:53:22</publishTime>
+    </File>
+    <File Include="Microsoft.DotNet.Scaffolding.Shared.dll">
+      <publishTime>03/06/2023 05:14:24</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>02/16/2023 10:03:32</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>02/16/2023 10:04:00</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Proxies.dll">
+      <publishTime>02/16/2023 10:04:06</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>02/16/2023 10:04:18</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>02/16/2023 10:04:32</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>01/14/2022 23:54:16</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>09/26/2022 21:42:22</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.FileProviders.Embedded.dll">
+      <publishTime>02/24/2023 22:00:54</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Identity.Core.dll">
+      <publishTime>02/24/2023 22:00:50</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Identity.Stores.dll">
+      <publishTime>02/24/2023 22:00:50</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>10/20/2020 01:51:12</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>10/13/2020 04:21:34</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>10/13/2020 04:23:12</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>10/13/2020 04:25:30</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>10/13/2020 04:31:32</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>10/13/2020 04:27:48</publishTime>
+    </File>
+    <File Include="Microsoft.NET.StringTools.dll">
+      <publishTime>09/13/2022 03:28:58</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Debugger.Contracts.dll">
+      <publishTime>10/13/2021 02:56:42</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>03/06/2023 05:14:30</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>03/06/2023 05:14:32</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>03/06/2023 05:14:32</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>03/06/2023 05:14:28</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>03/06/2023 05:14:26</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>03/06/2023 05:14:32</publishTime>
+    </File>
+    <File Include="Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/23/2021 03:40:24</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/18/2021 00:03:36</publishTime>
+    </File>
+    <File Include="NuGet.Common.dll">
+      <publishTime>09/10/2022 03:16:24</publishTime>
+    </File>
+    <File Include="NuGet.Configuration.dll">
+      <publishTime>09/10/2022 03:15:58</publishTime>
+    </File>
+    <File Include="NuGet.DependencyResolver.Core.dll">
+      <publishTime>09/10/2022 03:16:10</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>09/10/2022 03:16:18</publishTime>
+    </File>
+    <File Include="NuGet.LibraryModel.dll">
+      <publishTime>09/10/2022 03:16:18</publishTime>
+    </File>
+    <File Include="NuGet.Packaging.dll">
+      <publishTime>09/10/2022 03:18:42</publishTime>
+    </File>
+    <File Include="NuGet.ProjectModel.dll">
+      <publishTime>09/10/2022 03:18:02</publishTime>
+    </File>
+    <File Include="NuGet.Protocol.dll">
+      <publishTime>09/10/2022 03:18:32</publishTime>
+    </File>
+    <File Include="NuGet.Versioning.dll">
+      <publishTime>09/10/2022 03:18:44</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:18</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 22:42:34</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 22:42:54</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 22:30:42</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:38:10</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:20</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 22:38:34</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:40</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 22:38:38</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:18</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:18</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 22:42:34</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 22:42:54</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 22:30:42</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:38:10</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:20</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 22:38:34</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:40</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 22:38:38</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:18</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:18</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 22:42:34</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 22:42:54</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 22:30:42</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:38:10</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:20</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 22:38:34</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:40</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 22:38:38</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:18</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/net6.0/System.Drawing.Common.dll">
+      <publishTime>10/23/2021 03:51:42</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/21/2021 03:59:34</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 22:13:26</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 22:13:26</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 22:13:38</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 22:13:26</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/23/2021 03:40:18</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Drawing.Common.dll">
+      <publishTime>10/23/2021 03:48:10</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>10/23/2021 03:51:04</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Windows.Extensions.dll">
+      <publishTime>10/23/2021 03:49:58</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/21/2021 03:59:34</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 12:53:44</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>11/05/2016 04:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>11/05/2016 04:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>11/05/2016 04:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>11/05/2016 04:55:44</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>11/05/2016 04:55:46</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>10/23/2021 03:51:46</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>02/16/2023 04:32:04</publishTime>
+    </File>
+    <File Include="System.Drawing.Common.dll">
+      <publishTime>10/23/2021 03:49:12</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>10/13/2020 04:20:12</publishTime>
+    </File>
+    <File Include="System.Reflection.MetadataLoadContext.dll">
+      <publishTime>10/23/2021 03:49:10</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 12:37:36</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>10/23/2021 03:51:04</publishTime>
+    </File>
+    <File Include="System.Security.Permissions.dll">
+      <publishTime>10/23/2021 03:49:50</publishTime>
+    </File>
+    <File Include="System.Windows.Extensions.dll">
+      <publishTime>10/23/2021 03:49:44</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:18</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 22:42:34</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 22:42:54</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 22:30:42</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:38:10</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:20</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 22:38:34</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:40</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 22:38:38</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:18</publishTime>
+    </File>
+    <File Include="Views/static/checkout-coming-soon.html">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>06/14/2023 15:18:08</publishTime>
+    </File>
+    <File Include="WINKEL_ECOMMERCE.deps.json">
+      <publishTime>06/14/2023 15:18:05</publishTime>
+    </File>
+    <File Include="WINKEL_ECOMMERCE.dll">
+      <publishTime>06/14/2023 15:15:21</publishTime>
+    </File>
+    <File Include="WINKEL_ECOMMERCE.exe">
+      <publishTime>06/14/2023 15:18:02</publishTime>
+    </File>
+    <File Include="WINKEL_ECOMMERCE.pdb">
+      <publishTime>06/14/2023 15:18:02</publishTime>
+    </File>
+    <File Include="WINKEL_ECOMMERCE.runtimeconfig.json">
+      <publishTime>06/14/2023 14:43:16</publishTime>
+    </File>
+    <File Include="wwwroot/admin/css/material-dashboard-rtl.css">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/css/material-dashboard.css">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/css/material-dashboard.css.map">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/css/material-dashboard.min.css">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/demo/demo.css">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/demo/demo.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/angular.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/apple-icon.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/cover.jpg">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/ex1.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/ex2.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/ex3.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/faces/avatar.jpg">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/faces/card-profile1-square.jpg">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/faces/card-profile2-square.jpg">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/faces/marc.jpg">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/favicon.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/html.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/imac1.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/ipad.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/iPad2.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/iphonex.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/Macbook.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/mask.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/new_logo.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/notification.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/react.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/sidebar-1.jpg">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/sidebar-2.jpg">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/sidebar-3.jpg">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/sidebar-4.jpg">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/table.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/img/vue.png">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/core/bootstrap-material-design.min.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/core/jquery.min.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/core/popper.min.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/material-dashboard.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/material-dashboard.js.map">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/material-dashboard.min.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/arrive.min.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/bootstrap-datetimepicker.min.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/bootstrap-notify.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/bootstrap-selectpicker.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/bootstrap-tagsinput.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/chartist.min.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/fullcalendar.min.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/jasny-bootstrap.min.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/jquery-jvectormap.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/jquery.bootstrap-wizard.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/jquery.dataTables.min.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/jquery.tagsinput.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/jquery.validate.min.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/moment.min.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/nouislider.min.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/perfect-scrollbar.jquery.min.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/js/plugins/sweetalert2.js">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/bootstrap-grid.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/bootstrap-reboot.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/bootstrap.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_alert.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_background-variant.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_badge.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_border-radius.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_box-shadow.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_breakpoints.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_buttons.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_caret.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_clearfix.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_float.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_forms.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_gradients.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_grid-framework.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_grid.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_hover.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_image.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_list-group.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_lists.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_nav-divider.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_navbar-align.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_pagination.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_reset-text.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_resize.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_screen-reader.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_size.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_table-row.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_text-emphasis.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_text-hide.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_text-truncate.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_transition.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/mixins/_visibility.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/utilities/_align.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/utilities/_background.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/utilities/_borders.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/utilities/_clearfix.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/utilities/_display.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/utilities/_embed.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/utilities/_flex.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/utilities/_float.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/utilities/_position.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/utilities/_screenreaders.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/utilities/_sizing.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/utilities/_spacing.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/utilities/_text.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/utilities/_visibility.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_alert.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_badge.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_breadcrumb.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_button-group.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_buttons.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_card.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_carousel.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_close.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_code.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_custom-forms.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_dropdown.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_forms.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_functions.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_grid.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_images.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_input-group.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_jumbotron.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_list-group.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_media.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_mixins.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_modal.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_nav.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_navbar.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_pagination.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_popover.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_print.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_progress.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_reboot.scss">
+      <publishTime>04/12/2023 15:06:07</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_root.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_tables.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_tooltip.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_transitions.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_type.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_utilities.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/bootstrap/scss/_variables.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/cards/_card-plain.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/cards/_card-profile.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/cards/_card-stats.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_alert.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_animations.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_breakpoints.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_buttons.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_chartist.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_colored-shadows.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_drawer.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_forms.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_hover.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_layout.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_navbar-colors.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_navs.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_sidebar-color.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_transparency.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_type.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_utilities.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_variables.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/mixins/_vendor-prefixes.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/plugins/_animate.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/plugins/_chartist.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/plugins/_perfect-scrollbar.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_body.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_bootstrap-material-design-base.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_bootstrap-material-design.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_brand.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_buttons.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_card.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_code.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_colors-map.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_colors.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_custom-forms.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_drawer.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_dropdown.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_forms.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_layout.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_list-group.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_menu.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_modals.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_nav.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_pagination.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_shadow.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_snackbar.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_spacing.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_state.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_tables.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_tooltip.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/variables/_type.scss">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_alerts.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_buttons.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_cards.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_checkboxes.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_core-bootstrap.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_dropdown.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_example-pages.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_fixed-plugin.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_footers.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_forms.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_headers.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_images.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_info-areas.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_input-group.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_misc.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_mixins.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_navbar.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_popover.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_popups.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_radios.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_responsive.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_ripples.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_sidebar-and-main-panel.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_social-buttons.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_tables.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_tabs.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_togglebutton.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_tooltip.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_type.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/admin/scss/material-dashboard/_variables.scss">
+      <publishTime>04/03/2023 17:06:54</publishTime>
+    </File>
+    <File Include="wwwroot/css/animation.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/css/style.css">
+      <publishTime>04/23/2023 20:01:50</publishTime>
+    </File>
+    <File Include="wwwroot/css/style.css.map">
+      <publishTime>04/23/2023 20:01:50</publishTime>
+    </File>
+    <File Include="wwwroot/css/style.scss">
+      <publishTime>04/23/2023 20:01:50</publishTime>
+    </File>
+    <File Include="wwwroot/css/_default.scss">
+      <publishTime>08/05/2019 04:47:49</publishTime>
+    </File>
+    <File Include="wwwroot/css/_portion.scss">
+      <publishTime>08/05/2019 04:47:49</publishTime>
+    </File>
+    <File Include="wwwroot/css/_variable.scss">
+      <publishTime>08/05/2019 04:47:49</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/css/site.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/favicon.ico">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/js/site.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-grid.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-grid.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-grid.min.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-grid.min.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-grid.rtl.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-reboot.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-reboot.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-reboot.min.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-utilities.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-utilities.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-utilities.min.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap.rtl.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap.rtl.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap.rtl.min.css">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/js/bootstrap.bundle.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/js/bootstrap.bundle.js.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/js/bootstrap.esm.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/js/bootstrap.esm.js.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/js/bootstrap.esm.min.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/js/bootstrap.esm.min.js.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/js/bootstrap.js.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/dist/js/bootstrap.min.js.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/bootstrap/LICENSE">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/jquery-validation-unobtrusive/LICENSE.txt">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/jquery-validation/LICENSE.md">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/jquery/dist/jquery.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/jquery/dist/jquery.min.js">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/jquery/dist/jquery.min.map">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/Identity/lib/jquery/LICENSE.txt">
+      <publishTime>02/24/2023 21:46:08</publishTime>
+    </File>
+    <File Include="wwwroot/image/1f6b17cc-7fed-4a23-a3a1-3a47451146e642.jpg">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/235dfcc9-25fa-4073-a54a-2e49986c78efproduct-6.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/2abb837f-70cf-43fd-9b34-8486a12c88f642.jpg">
+      <publishTime>04/12/2023 15:06:07</publishTime>
+    </File>
+    <File Include="wwwroot/image/2b3d4798-fc39-46af-b313-bf5f0605d65742.jpg">
+      <publishTime>04/12/2023 15:06:07</publishTime>
+    </File>
+    <File Include="wwwroot/image/2d805d11-567c-4010-83e4-7b3ae2f998d3Screenshot 2023-03-27 202107.jpeg">
+      <publishTime>04/12/2023 15:06:07</publishTime>
+    </File>
+    <File Include="wwwroot/image/42de2bae-d74f-4083-a868-675d29099f22Photo">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/61eb1977-769b-46ee-ac81-c68d5cbdf8d0Screenshot 2023-03-27 202107.jpeg">
+      <publishTime>04/12/2023 15:06:07</publishTime>
+    </File>
+    <File Include="wwwroot/image/681e87ac-90ef-4666-a0ed-fe665162800042.jpg">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/6f8eab79-57c1-40a0-8bd4-1437c83050a4bg_6.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/763aab4e-cdef-47e4-8450-8b0c3ac3286242.jpg">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/83c2eb48-d4e4-4b74-9fc9-0fbb8605104142.jpg">
+      <publishTime>04/12/2023 15:06:07</publishTime>
+    </File>
+    <File Include="wwwroot/image/9a6b257a-2a5c-48d7-9617-4a78815cb3e4person_3.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/a209f70f-dfc8-457f-9f7b-e4c73c07d1a4image_4.jpg">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/about-1.jpg">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/about-2.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/about.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/auto.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/bg_2.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/bg_4.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/bg_6.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/c488a008-0e7c-4618-8f25-f996b77d9c31bg_1.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/ca26b137-2814-448b-9322-668c01eb07e4bg_4.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/cf056785-7da7-4906-9cf4-76655e0b97c2about.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/eae26acf-d0b7-4dd1-92d9-86c3797ca6eeimage_3.jpg">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/edb2705e-5c62-4445-937c-c7147bd32ca0image_6.jpg">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/f5cf69bd-ecfe-49e7-9773-d619ee071691image_5.jpg">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/f88d631b-5520-42fa-a838-ddc9fb25f11aPhoto">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/f9ca54bb-d979-4c79-a153-81ef3d1b9aa8person_1.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/footer_img.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/footer_logo.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/image_1.jpg">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/image_2.jpg">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/image_3.jpg">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/image_4.jpg">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/image_5.jpg">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/image_6.jpg">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/person_1.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/person_2.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/person_3.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/preloader2.gif">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/product-1.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/product-2.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/product-3.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/product-4.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/product-5.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/product-6.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/product-7.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/image/product-8.webp">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/js/checkout.js">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/js/main.js">
+      <publishTime>04/23/2023 20:40:25</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/.gitattributes">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/.gitignore">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/.travis.yml">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/bower.json">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/CONTRIBUTING.md">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/ajax-loader.gif">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.green.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.green.min.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/dist/assets/owl.video.play.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/dist/LICENSE">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/dist/owl.carousel.js">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/dist/README.md">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/css/animate.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/css/docs.theme.min.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/bird_blue_32.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/download.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/feature-drag.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/feature-modern.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/feature-module.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/feature-options.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/feature-responsive.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/feature-zombie.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/owl-logo.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/img/twitter_25.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/js/app.js">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/js/foundation.min.js">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/ajax-loader.gif">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.green.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.green.min.css">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.video.play.png">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.js">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/owlcarousel/README.md">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/vendors/foundation.min.js">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/vendors/highlight.js">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.map">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.mousewheel.min.js">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/animate.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/autoheight.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/autoplay.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/autowidth.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/basic.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/center.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/demos.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/events.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/lazyLoad.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/merge.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/mousewheel.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/responsive.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/rtl.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/stagepadding.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/test.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/urlhashnav.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/demos/video.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/api-classes.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/api-events.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/api-options.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/dev-buildin-plugins.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/dev-external.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/dev-plugin-api.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/dev-styles.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/started-faq.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/started-installation.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/started-welcome.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/support-changelog.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/support-contact.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/docs/support-contributing.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs/index.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/css/animate.css">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/bird_blue_32.png">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/download.png">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/feature-drag.png">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/feature-modern.png">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/feature-module.png">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/feature-options.png">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/feature-responsive.png">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/feature-zombie.png">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/owl-logo.png">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/img/twitter_25.png">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/js/app.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/js/foundation.min.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/scss/custom.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/scss/demos.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.theme.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/scss/highlight.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/scss/_settings.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/vendors/foundation.min.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/vendors/highlight.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.map">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.mousewheel.min.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/data/classes.json">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/data/events.json">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/data/features.json">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/data/options.json">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/helpers/modulo.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/helpers/test.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/layouts/demos.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/layouts/docs.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/layouts/home.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/animate.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autoheight.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autoplay.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autowidth.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/basic.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/center.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/demos.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/events.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/lazyLoad.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/merge.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/mousewheel.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/responsive.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/rtl.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/stagepadding.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/test.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/urlhashnav.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/video.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-classes.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-events.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-options.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-buildin-plugins.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-external.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-plugin-api.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-styles.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-faq.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-installation.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-welcome.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-changelog.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-contact.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-contributing.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/pages/index.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/footer.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/head.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/header.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/home-carousel.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/home-features.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/home-hero.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/home-teaser-text.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/javascripts.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/releated-docs.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/sidenav-docs.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/title.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/docs_src/templates/partials/vendors.hbs">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/Gruntfile.js">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/index.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/ISSUE_TEMPLATE.md">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/LICENSE">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/package-lock.json">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/package.json">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/README.md">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/ROADMAP.md">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/img/ajax-loader.gif">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/img/owl.video.play.png">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/js/.jscsrc">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/js/.jshintrc">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.animate.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.autoheight.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.autoplay.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.autorefresh.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.carousel.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.hash.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.lazyload.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.navigation.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.support.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.support.modernizr.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/js/owl.video.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/scss/owl.carousel.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/scss/owl.theme.default.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/scss/owl.theme.green.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_animate.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_autoheight.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_core.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_lazyload.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_theme.default.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_theme.green.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_theme.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/src/scss/_video.scss">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/test/index.html">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/test/unit/autoplay.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/test/unit/core.js">
+      <publishTime>04/03/2023 17:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/lib/OwlCarousel2-2.3.4/_config.json">
+      <publishTime>04/03/2023 17:06:55</publishTime>
+    </File>
+    <File Include="wwwroot/WINKEL_ECOMMERCE.styles.css">
+      <publishTime>04/12/2023 17:21:26</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:18</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 22:42:34</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 22:42:54</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 22:30:42</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:38:10</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:20</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 22:38:34</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:40</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 22:38:38</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:18</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:18</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 22:42:34</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:42:40</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 22:42:54</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 22:30:42</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 22:38:10</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 22:43:20</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 22:38:34</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:40</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 22:38:38</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 22:38:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

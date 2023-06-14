@@ -1,0 +1,96 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Product
+<form method="post" enctype="multipart/form-data">
+    <div>
+        <label> Current Image: </label>
+        <img src="~/image/@Model.Image" width="200"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="Photo" class="form-label"></label>
+        <input asp-for="Photo" class="form-control" type="file" accept="image/*" type="file"/>
+        <span asp-validation-for="Photo"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" type="text"/>
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price" class="form-label"></label>
+        <input asp-for="Price" class="form-control" type="text" onkeypress="return isNumberKey(event)"/>
+        <span asp-validation-for="Price"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="HasDiscount" class="form-label"></label>
+
+            <br />
+            <label asp-for="HasDiscount">True</label>
+            <input asp-for="HasDiscount" class="form-control radiom"  type="radio" value="True"     style="width : 8%; display:inline; height:15px;"/>
+            <span asp-validation-for="HasDiscount"></span>
+             <br />
+            <label asp-for="HasDiscount">False</label>
+            <input asp-for="HasDiscount" class="form-control radio" checked type="radio" value="False"     style="width : 8%; display:inline; height:15px;"/>
+            <span asp-validation-for="HasDiscount"></span>
+
+    </div>
+        <div class="form-group disPrice d-none">
+        <label asp-for="DiscountPrice" class="form-label"></label>
+        <input asp-for="DiscountPrice" class="form-control dPrice" value="0.00" onkeypress="return isNumberKey(event)"/>
+        <span asp-validation-for="DiscountPrice"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Rating" class="form-label"></label>
+        @for (int i = 1; i <= 5; i++)
+        {
+            <br />
+            <label asp-for="Rating">@i
+                @for (int j = 1; j <= 5; j++)
+                {
+                    if(j <= i)
+                    {
+                        <i class="fas fa-star"></i>
+                    }
+                    else{
+                        <i class="far fa-star"></i>
+                    }
+                }
+            
+            </label>
+            <input asp-for="Rating" class="form-control" type="radio" value="@i" style="width : 8%; display:inline; height:15px;"/>
+            <span asp-validation-for="Rating"></span>
+        }
+    </div>
+    <input type="submit" value="Update" class="btn btn-primary btn-lg btn-block" />
+</form>
+
+ @section scripts{
+ <script>
+
+        function isNumberKey(evt)
+        {
+            console.log(evt)
+             var charCode = (evt.which) ? evt.which : evt.keyCode;
+             if(charCode == 110 || charCode == 46 || charCode == 90) return true;
+             if (charCode > 31 && (charCode < 48 || charCode > 57) )
+                return false;    
+             return true;
+        }
+
+        const radioButton = document.querySelector('.radio');
+        radioButton.addEventListener("change",function(){
+            document.querySelector('.disPrice').classList.add("d-none")
+            document.querySelector('.dPrice').value= "0.00";
+        })
+
+         const radioButtonm = document.querySelector('.radiom');
+        radioButtonm.addEventListener("change",function(){
+            document.querySelector('.disPrice').classList.remove("d-none")
+
+        })
+
+ </script>
+ }

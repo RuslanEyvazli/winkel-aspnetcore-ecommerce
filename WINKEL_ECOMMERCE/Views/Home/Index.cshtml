@@ -1,0 +1,250 @@
+﻿@model HomeIndexVM
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+  <section id="first">
+    <div class="oc-1 owl-carousel">
+        @foreach (Slider slide in Model.Sliders)
+        {
+        <div class="my-div">
+            <div class="container-fluid d-flex">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 txt animated bounceInLeft  delay-1s">
+                      <div class="txt-holder position-relative">
+                        <div class="add position-absolute">
+                          <p> @slide.LeftVerticalText  </p>
+                        </div>
+                        <h4> @slide.SupHeader</h4>
+                        <div class="separator position-absolute"></div>
+                        <h1> @Html.Raw(slide.Header) </h1>
+            
+                        <p>@slide.Description</p>
+                          <a class="my-btn" href="">Shop Now</a>
+                      </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6"> 
+                      <div class="img-wrapper position-relative">
+                        <img src="~/image/@slide.Image" alt="@slide.AltImage">
+                      </div>
+                    </div>
+                    <div class="txt-holder text d-none position-absolute">
+                        <h4> WINKEL ECOMMERCE SHOP</h4>
+                        <h1> A Thouroughly <b>Modern</b> Woman</h1>
+                        <p>A small river named Duden flows by tehir place and supplies it with the 
+                          necessary regelialia. It is a paradisematic country.</p>
+                          <a class="my-btn" href="">Shop Now</a>
+                      </div>
+                  </div>
+          </div>
+        </div>
+        }
+    </div>
+  </section>
+  <section id="second">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 col-lg-5 col-xs-12">
+          <div class="img-wrapper position-relative">
+            <img  src="~/image/@Model.Ship.Image" alt="@Model.Ship.AltImage">
+          <a class="position-absolute" href="@Model.Ship.Link"> <i class="fas fa-play "></i></a> 
+          </div>
+        </div>
+        <div class="col-md-7 col-lg-7 col-xs-12">
+          <div class="text-holder">
+            <h2>@Model.Ship.Header</h2>
+            <p>@Model.Ship.Description
+              </p>
+                <div class="row inner d-flex">
+                        @foreach(ShipItem shipItem in Model.Ship.ShipItems)
+                        {
+                        <div class="col-md-12 col-lg-4  animated bounceInUp delay-1s">
+                            <div class="square">
+                                <i class="@shipItem.Icon"></i>
+                            </div>
+                            <h2>@shipItem.Title</h2>
+                            <p>@shipItem.Content</p>
+                        </div>
+                            
+                        }
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="third">
+    <div class="container">
+      <div class="head">
+          <h1>Best Sellers</h1>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      </div>
+    <div class="row">
+    @*      @foreach (Product product in Model.Products.OrderByDescending(pr => pr.Rating).Take(4))
+            {
+                <div class="col-lg-3 col-md-6 animated bounceInLeft delay-1s">
+                  <div class="img_wrap position-relative ">
+                    <img src="~/image/@product.Image" alt="">
+                    <div class="overlay position-absolute ">
+                      <a class="add" href="/Card/Add/@product.Id" data-id ="@product.Id">ADD TO CART <i class="fas fa-plus"></i></a>
+                      <a class="buy" href="">BUY NOW <i class="fas fa-cart-arrow-down"></i></a>
+                    </div>
+                  </div>
+                  <div class="txt-holder">
+                  <a href="">@product.Name</a> 
+                  <div class="span-holder">
+                            @if (product.HasDiscount)
+                            {
+                                <span class="through">$@product.Price</span>
+                                <span>$@product.DiscountPrice</span>
+                            }
+                            else
+                            {
+                                <span>$@product.Price</span>
+                            }
+                            @for (int i = 0; i < product.Rating; i++)
+                            {
+                                <i class="fas fa-star"></i>
+                            }
+                            @for (int i = 0; i < 5 - product.Rating; i++)
+                            {
+                                <i class="far fa-star"></i>
+                            }
+                  </div>
+                  </div>
+                </div>
+            } *@
+            @await Html.PartialAsync("_ProductPartialView",new ProductPartialVM(){ Products = Model.Products.OrderByDescending(pr => pr.Rating).Take(4), ClassName = "col-lg-3 col-md-6 animated bounceInLeft delay-1s"})
+      </div>
+    </div>
+  </section>
+
+  <section id="fourth">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-9">
+          <div class="img-wrapper">
+            <img src="~/image/@Model.Summer.RightImage" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4  col-md-3 animated bounceInUp delay-1s">
+          <div class="text-holder">
+            <h2>
+                @Model.Summer.RightHeading </h2>
+            <p>
+               @Model.Summer.RightContent</p>
+            <a class="my-btn" href="">SHOP NOW</a>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-7 animated  bounceInUp delay-1s">
+            <div class="text-holder">
+              <h2>@Model.Summer.LeftHeading</h2>
+              <p>@Model.Summer.LeftContent </p>
+              <a class="my-btn" href="">SHOP NOW</a>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-5">
+              <div class="img-wrapper">
+                <img src="~/image/@Model.Summer.LeftImage" alt="">
+              </div>
+            </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="fifth">
+    <div class="container">
+      <div class="head">
+          <h1>Best Sellers</h1>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      </div>
+      <div class="row  animated bounceInLeft delay-1s">
+           @* @foreach (Product product in Model.Products.OrderByDescending(pr => pr.DiscountPrice).Take(4))
+            {
+                <div class="col-lg-3 col-md-6 animated bounceInLeft delay-1s">
+                  <div class="img_wrap position-relative ">
+                    <img src="~/image/@product.Image" alt="">
+                    <div class="overlay position-absolute ">
+                      <a class="add" href="/Card/Add/@product.Id" data-id ="@product.Id">ADD TO CART <i class="fas fa-plus"></i></a>
+                      <a class="buy" href="">BUY NOW <i class="fas fa-cart-arrow-down"></i></a>
+                    </div>
+                  </div>
+                  <div class="txt-holder">
+                  <a href="">@product.Name</a> 
+                  <div class="span-holder">
+                            @if (product.HasDiscount)
+                            {
+                                <span class="through">$@product.Price</span>
+                                <span>$@product.DiscountPrice</span>
+                            }
+                            else
+                            {
+                                <span>$@product.Price</span>
+                            }
+                            @for (int i = 0; i < product.Rating; i++)
+                            {
+                                <i class="fas fa-star"></i>
+                            }
+                            @for (int i = 0; i < 5 - product.Rating; i++)
+                            {
+                                <i class="far fa-star"></i>
+                            }
+                  </div>
+                  </div>
+                </div>
+            }*@ 
+            @await Html.PartialAsync("_ProductPartialView",new ProductPartialVM(){Products = Model.Products.OrderByDescending(pr => pr.DiscountPrice).Take(4),ClassName ="col-lg-3 col-md-6 animated bounceInLeft delay-1s"})
+      </div>
+    </div>
+  </section>
+
+ <section id="sixth">
+    <div class="container">
+      <div class="row">
+          @foreach (Static st in Model.Static)
+            {
+                <div class="col-md-3">
+                    <p class="increasing"> <span data-count="@st.Count" id="cntr">0</span> </p>
+                    <span class="words">@st.Name</span>
+                </div>
+            }
+      
+
+      </div>
+    </div>
+  </section>
+
+<section id="seventh">
+    
+    <div class="container">
+      <div class="my-wrapper  ">
+          <div class="head">
+              <h1>Our satisfied customer says</h1>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+          </div>
+  
+          <div class="owl-carousel nonloop owl-theme">
+              @foreach (SatisfiedCustomer sc in Model.SatisfiedCustomers)
+                {
+                      <div class="item">
+                        <div class="img-holder position-relative">
+                          <img src="~/image/@sc.Image" alt="@sc.AltImage">
+                         <span><i class="@sc.Icon"></i></span> 
+                        </div>
+                        <div class="txt-holder">
+                          <div class="hr"></div>
+                          <p>@sc.Content</p>
+                        </div>
+                        <div class="uppercase">
+                          <h2>@sc.Name</h2>
+                          <p> @sc.Position </p>
+                        </div>
+                      </div>
+                }
+
+
+      </div>
+      </div>
+    </div>
+  </section>

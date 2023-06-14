@@ -1,0 +1,34 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Product
+<dl>
+    <dt>Image</dt>
+    <dd><img width="200" src="~/image/@Model.Image"/></dd>
+    <dt>Product Name</dt>
+    <dd>@Model.Name</dd>
+    <dt>Price</dt>
+    @if(Model.HasDiscount)
+    {
+    <s>
+        <dd>@Model.Price</dd>
+    </s>
+    }else{
+    <dd>@Model.Price</dd>
+    }
+    <dt>Discount</dt>
+    <dd>@Model.HasDiscount</dd>
+    <dt>Discount Price</dt>
+    @if(Model.HasDiscount)
+    {
+        <dd>@Model.DiscountPrice</dd>
+    }else{
+    <dd>Any discount was't Applied </dd>
+    }
+</dl>
+<div>
+    <a class="btn btn-block btn-outline-success"  asp-area="Admin" asp-controller="Products" asp-action="Index">Back to Index</a>
+    <a class="btn btn-block btn-outline-warning"  asp-area="Admin" asp-controller="Products" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+</div>

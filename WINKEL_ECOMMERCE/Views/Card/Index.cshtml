@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<BasketProduct>;
+<section id="products">
+    <div class="title">
+        <p>HOME CHECKOUT </p>
+        <h1>CHECKOUT</h1>
+    </div>
+</section>
+
+@if(Model.ToList().Count == 0)
+{
+    <div class="alert alert-warning">
+        You have empty card. Please, Add  some products to card.
+    </div>
+}
+else
+{
+
+<section id="carts">
+    <div class="container">
+         <table class="table mt-5">
+                    <thead class="thead-dark">
+                        <tr>
+                        <th scope="col">Product</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (BasketProduct product in Model)
+                        {
+                            <tr>
+                                <td class="d-flex"> <a href="/Card/Remove/@product.Id"><span  class="close"><i class="fas fa-times"></i></span></a>
+                                <div class="img-wrapper">
+                                    <img class="image" src="~/image/@product.Image" alt="">
+                                </div>
+                                <div class="productinfo">
+                                    <h4>@product.Name</h4>
+                                </div>
+                                </td>
+                            @if (product.HasDiscount) product.Price = product.DiscountPrice;
+                            <td>
+                                    <p>@product.Price$</p>
+                                </td>
+                                <td>
+                                    <span class="quantity">
+                                        @product.Quantity
+                                    </span>
+                                </td>
+                                <td>
+                                    <p>@(product.Price * (decimal)product.Quantity)$</p>
+                                </td>
+                          </tr>
+                        }   
+                    </tbody>
+                </table>
+    </div>
+</section>
+}

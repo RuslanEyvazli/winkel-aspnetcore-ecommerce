@@ -1,0 +1,58 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model AppUser
+@inject Microsoft.AspNetCore.Identity.UserManager<AppUser> _userManager;
+
+
+<h4 class="alert alert-primary">User Information</h4>
+<div asp-validation-summary="ModelOnly"></div>
+<form method="post">
+    <dl>
+        <dt>UserName</dt>
+        <dd>@Model.UserName</dd>
+
+        <dt>Email</dt>
+        <dd>@Model.Email</dd>
+
+        <dt>Firsname</dt>
+        <dd>@Model.Firstname</dd>
+
+        <dt>Lastname</dt>
+        <dd>@Model.Lastname</dd>
+
+
+    </dl>
+    <table class=" table table-stripped table-bordered table-hover">
+        <thead>
+            <tr>
+                <th><b>Role</b></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var role in await _userManager.GetRolesAsync(Model))
+            {
+                <tr>
+                    <td>
+                        @role
+                    </td>
+                    <td>
+                        <a asp-area="Admin" asp-controller="Users" asp-action="Delete" asp-route-role="@role" asp-route-userid="@Model.Id" class="btn btn-danger">
+                            <i class="material-icons">
+                                delete
+                            </i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+@*    <div class="form-group">
+        <label asp-for="UserName" class="form-label"></label>
+        <input asp-for="UserName" class="form-control" />
+        <span asp-validation-for="UserName"></span>
+    </div>*@
+</form>

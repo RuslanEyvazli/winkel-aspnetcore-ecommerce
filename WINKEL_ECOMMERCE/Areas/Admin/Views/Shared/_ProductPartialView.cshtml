@@ -1,0 +1,88 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<Product>
+<div class="">
+    <a asp-area="Admin" asp-controller="Products" asp-action="Create" class="btn btn-outline-primary btn-lg d-block">
+        CREATE NEW
+        <i class="material-icons">
+            add
+        </i>
+    </a>
+ </div>
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Header</th>
+            <th>Description</th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(Product product in Model)
+        {
+            <tr>
+                <td>
+                    <img width="100px" src="~/image/@product.Image"/>
+                </td>
+                <td>@product.Name</td>
+                @if(product.HasDiscount){
+                    <td>@product.DiscountPrice</td>
+                    
+                }
+                else{
+                    <td>@product.Price</td>
+                }
+                <td>
+                    <a asp-area="Admin" asp-controller="Products" asp-action="Details" asp-route-id="@product.Id" class="btn btn-success">
+                        <i class="material-icons">
+                            remove_red_eye
+                        </i>
+                    </a>
+                    <a asp-area="Admin" asp-controller="Products" asp-action="Edit" asp-route-id="@product.Id" class="btn btn-warning">
+                        <i class="material-icons">
+                            edit
+                        </i>
+                    </a> 
+                    @if (Convert.ToInt32(ViewData["total_products_count"]) > 1)
+                    {
+                        <a asp-area="Admin" asp-controller="Products" asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">
+                            <i class="material-icons">
+                                delete
+                            </i>
+                        </a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@{
+    int totalSliderCount = (int)ViewData["total_products_count"];
+    int activePage =  (int)ViewData["active_page"];
+    int totalPages = (int)Math.Ceiling((decimal)totalSliderCount / 3);
+}
+<nav aria-label="Page navigation example" class="mt-5">
+  <ul class="pagination justify-content-center">
+    <li class="page-item @(activePage==1?"active":"")">
+      <a class="page-link" href="/Admin/Products/Index?page=@(activePage>1 ? activePage-1 : 1)" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+    </li>
+
+    @for (int i = 1; i <= totalPages; i++)
+        {
+            <li class="page-item @(i == activePage ? "active" : "")"><a class="page-link"  href="/Admin/Ajax/Index?page=@i">@i</a></li>
+        }
+    <li class="page-item @(activePage==totalPages?"active":"")">
+      <a class="page-link" href="/Admin/Products/Index?page=@(activePage < totalPages ? activePage+1 : totalPages)" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </li>
+  </ul>
+</nav>
