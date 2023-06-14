@@ -1,6 +1,6 @@
 # winkel-aspnetcore-ecommerce
 
-http://ruslanaspnetcore-001-site1.dtempurl.com/
+[http://ruslanaspnetcore-001-site1.dtempurl.com/](http://ruslannetcore-001-site1.gtempurl.com/)
 Hello, You can register as a regular user to view the site's functionalities. If you want to log in as an admin:
 
 Email: rus.eyvazli@gmail.com
