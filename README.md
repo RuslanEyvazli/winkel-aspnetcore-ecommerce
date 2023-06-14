@@ -1,6 +1,6 @@
 # winkel-aspnetcore-ecommerce
 
-# [http://ruslanaspnetcore-001-site1.dtempurl.com/](http://ruslannetcore-001-site1.gtempurl.com/)
+# http://ruslannetcore-001-site1.gtempurl.com/
 
 
 Hello,
